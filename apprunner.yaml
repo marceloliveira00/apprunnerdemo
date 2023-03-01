@@ -6,3 +6,5 @@ build:
       - dotnet publish -c Release -o out
 run:                              
   command: dotnet out/apprunnerdemo.dll
+  network:
+      port: 7178
