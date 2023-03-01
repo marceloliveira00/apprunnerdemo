@@ -7,4 +7,4 @@ build:
 run:                              
   command: dotnet out/apprunnerdemo.dll
   network:
-      port: 8080
+    port: 8080
